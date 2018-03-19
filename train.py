@@ -16,7 +16,7 @@ from augmenter import augmenter
 
 def main():
     # parser config
-    config_file = "./config.ini"
+    config_file = "./sample_config.ini"
     cp = ConfigParser()
     cp.read(config_file)
 
