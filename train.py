@@ -208,6 +208,7 @@ def main():
             callbacks=callbacks,
             class_weight=class_weights,
             workers=generator_workers,
+            max_queue_size=30,
             shuffle=False,
         )
 
