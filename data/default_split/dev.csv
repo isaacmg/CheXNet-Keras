@@ -114,7 +114,6 @@ Image Index,Patient ID,Finding Labels,Atelectasis,Cardiomegaly,Effusion,Infiltra
 00000665_000.png,665,No Finding,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 00000713_000.png,713,Fibrosis,0,0,0,0,0,0,0,0,0,0,0,1,0,0
 00000756_000.png,756,No Finding,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-00000756_001.png,756,Cardiomegaly|Effusion|Infiltration,0,1,1,1,0,0,0,0,0,0,0,0,0,0
 00000756_002.png,756,Atelectasis|Effusion,1,0,1,0,0,0,0,0,0,0,0,0,0,0
 00000756_003.png,756,Atelectasis|Effusion,1,0,1,0,0,0,0,0,0,0,0,0,0,0
 00000756_004.png,756,Nodule,0,0,0,0,0,1,0,0,0,0,0,0,0,0
