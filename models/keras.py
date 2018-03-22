@@ -59,7 +59,7 @@ class ModelFactory:
     def get_input_size(self, model_name):
         return self.models_[model_name]["input_shape"][:2]
 
-    def get_model(self, class_names, model_name="DenseNet121", use_base_weights=True,
+    def get_model(self, class_names, model_name="ResNet50", use_base_weights=True,
                   weights_path=None, input_shape=None):
 
         if use_base_weights is True:
