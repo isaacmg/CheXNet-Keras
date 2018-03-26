@@ -2,7 +2,7 @@ import importlib
 from keras.layers import Input
 from keras.layers.core import Dense
 from keras.models import Model
-
+"""Absolutely horrible naming convention calling this Keras needs to be changed.""""
 
 class ModelFactory:
     """
@@ -94,4 +94,5 @@ class ModelFactory:
         if weights_path is not None:
             print(f"load model weights_path: {weights_path}")
             model.load_weights(weights_path)
+        print(model.summary())
         return model
