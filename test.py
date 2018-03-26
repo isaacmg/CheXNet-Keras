@@ -2,7 +2,7 @@ import numpy as np
 import os
 from configparser import ConfigParser
 from generator import AugmentedImageSequence
-from models.keras import ModelFactory
+from models.keras_models import ModelFactory
 from sklearn.metrics import roc_auc_score
 from utility import get_sample_counts
 
