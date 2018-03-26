@@ -8,7 +8,7 @@ from generator import AugmentedImageSequence
 from keras.callbacks import ModelCheckpoint, TensorBoard, ReduceLROnPlateau
 from keras.optimizers import Adam
 from keras.utils import multi_gpu_model
-from models.keras import ModelFactory
+from models.keras_models import ModelFactory
 from utility import get_sample_counts
 from weights import get_class_weights
 from augmenter import augmenter
