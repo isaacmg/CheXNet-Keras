@@ -2,7 +2,7 @@ import importlib
 from keras.layers import Input
 from keras.layers.core import Dense
 from keras.models import Model
-"""Absolutely horrible naming convention calling this Keras needs to be changed.""""
+
 
 class ModelFactory:
     """
